@@ -11,6 +11,8 @@ namespace PathCreation.Examples
         public float speed = 5;
         float distanceTravelled;
 
+        [SerializeField]
+        GameObject prefab;
         void Start() {
             if (pathCreator != null)
             {
@@ -33,6 +35,16 @@ namespace PathCreation.Examples
         // is as close as possible to its position on the old path
         void OnPathChanged() {
             distanceTravelled = pathCreator.path.GetClosestDistanceAlongPath(transform.position);
+        }
+
+        private void OnTriggerEnter(Collider other)
+        {
+            if (other.gameObject.tag == "Reset Particle")
+            {
+                Debug.Log("Particle touched!");
+                Instantiate(prefab);
+                Destroy(this);
+            }
         }
     }
 }

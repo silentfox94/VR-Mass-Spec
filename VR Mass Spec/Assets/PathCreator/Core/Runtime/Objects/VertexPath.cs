@@ -264,7 +264,7 @@ namespace PathCreation {
                     t = Mathf.PingPong (t, 1);
                     break;
                 case EndOfPathInstruction.Stop:
-                    t = Mathf.Clamp01 (t);
+                    t = Mathf.Clamp01 (t);  
                     break;
             }
 
