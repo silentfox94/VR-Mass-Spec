@@ -11,9 +11,9 @@ namespace PathCreation.Examples
         public float speed = 5;
         float distanceTravelled;
 
-        [SerializeField]
-        GameObject prefab;
         void Start() {
+            speed = Random.Range(2f, 5f);
+            transform.localScale = new Vector3(Random.Range(0.03f, 0.05f), Random.Range(0.03f, 0.05f), Random.Range(0.03f, 0.05f));
             if (pathCreator != null)
             {
                 // Subscribed to the pathUpdated event so that we're notified if the path changes during the game
@@ -37,14 +37,5 @@ namespace PathCreation.Examples
             distanceTravelled = pathCreator.path.GetClosestDistanceAlongPath(transform.position);
         }
 
-        private void OnTriggerEnter(Collider other)
-        {
-            if (other.gameObject.tag == "Reset Particle")
-            {
-                Debug.Log("Particle touched!");
-                Instantiate(prefab);
-                Destroy(this);
-            }
-        }
     }
 }

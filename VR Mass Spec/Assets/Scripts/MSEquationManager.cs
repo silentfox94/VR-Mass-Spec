@@ -3,9 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 using UnityEngine.UI;
+using PathCreation;
 public class MSEquationManager : MonoBehaviour
 {
-    public Slider massSlider, velocitySlider, chargeSlider, magneticFieldStrengthSlider;
+    public Slider magneticFieldStrengthSlider;
 
     public float mass;
     public float velocity;
@@ -14,16 +15,22 @@ public class MSEquationManager : MonoBehaviour
 
     public TextMeshProUGUI massValueText, velocityValueText, chargeValueText, magneticFieldStrengthValueText;
 
+    public PathCreator pathCreator;
     private void Update()
     {
         UpdateValues();
     }
-
+    private void Start()
+    {
+        PrintBezierPoints();
+    }
+    public void PrintBezierPoints()
+    {
+        for (int i = 0; i <= pathCreator.bezierPath.NumPoints-1; i++ )
+        print("Bezier Point Index " + i + " is: " + pathCreator.bezierPath.GetPoint(i));
+    }
     public void UpdateValues()
     {
-        mass = TwoDecimalRound(massSlider.value);
-        velocity = TwoDecimalRound(velocitySlider.value);
-        charge = TwoDecimalRound(chargeSlider.value);
         magneticFieldStrength = TwoDecimalRound(magneticFieldStrengthSlider.value);
 
         massValueText.text = mass.ToString();

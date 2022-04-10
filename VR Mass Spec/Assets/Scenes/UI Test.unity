@@ -1,0 +1,1221 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!29 &1
+OcclusionCullingSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_OcclusionBakeSettings:
+    smallestOccluder: 5
+    smallestHole: 0.25
+    backfaceThreshold: 100
+  m_SceneGUID: 00000000000000000000000000000000
+  m_OcclusionCullingData: {fileID: 0}
+--- !u!104 &2
+RenderSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 9
+  m_Fog: 0
+  m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  m_FogMode: 3
+  m_FogDensity: 0.01
+  m_LinearFogStart: 0
+  m_LinearFogEnd: 300
+  m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
+  m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
+  m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
+  m_AmbientIntensity: 1
+  m_AmbientMode: 0
+  m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
+  m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
+  m_HaloStrength: 0.5
+  m_FlareStrength: 1
+  m_FlareFadeSpeed: 3
+  m_HaloTexture: {fileID: 0}
+  m_SpotCookie: {fileID: 10001, guid: 0000000000000000e000000000000000, type: 0}
+  m_DefaultReflectionMode: 0
+  m_DefaultReflectionResolution: 128
+  m_ReflectionBounces: 1
+  m_ReflectionIntensity: 1
+  m_CustomReflection: {fileID: 0}
+  m_Sun: {fileID: 0}
+  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
+  m_UseRadianceAmbientProbe: 0
+--- !u!157 &3
+LightmapSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 12
+  m_GIWorkflowMode: 1
+  m_GISettings:
+    serializedVersion: 2
+    m_BounceScale: 1
+    m_IndirectOutputScale: 1
+    m_AlbedoBoost: 1
+    m_EnvironmentLightingMode: 0
+    m_EnableBakedLightmaps: 1
+    m_EnableRealtimeLightmaps: 0
+  m_LightmapEditorSettings:
+    serializedVersion: 12
+    m_Resolution: 2
+    m_BakeResolution: 40
+    m_AtlasSize: 1024
+    m_AO: 0
+    m_AOMaxDistance: 1
+    m_CompAOExponent: 1
+    m_CompAOExponentDirect: 0
+    m_ExtractAmbientOcclusion: 0
+    m_Padding: 2
+    m_LightmapParameters: {fileID: 0}
+    m_LightmapsBakeMode: 1
+    m_TextureCompression: 1
+    m_FinalGather: 0
+    m_FinalGatherFiltering: 1
+    m_FinalGatherRayCount: 256
+    m_ReflectionCompression: 2
+    m_MixedBakeMode: 2
+    m_BakeBackend: 1
+    m_PVRSampling: 1
+    m_PVRDirectSampleCount: 32
+    m_PVRSampleCount: 512
+    m_PVRBounces: 2
+    m_PVREnvironmentSampleCount: 256
+    m_PVREnvironmentReferencePointCount: 2048
+    m_PVRFilteringMode: 1
+    m_PVRDenoiserTypeDirect: 1
+    m_PVRDenoiserTypeIndirect: 1
+    m_PVRDenoiserTypeAO: 1
+    m_PVRFilterTypeDirect: 0
+    m_PVRFilterTypeIndirect: 0
+    m_PVRFilterTypeAO: 0
+    m_PVREnvironmentMIS: 1
+    m_PVRCulling: 1
+    m_PVRFilteringGaussRadiusDirect: 1
+    m_PVRFilteringGaussRadiusIndirect: 5
+    m_PVRFilteringGaussRadiusAO: 2
+    m_PVRFilteringAtrousPositionSigmaDirect: 0.5
+    m_PVRFilteringAtrousPositionSigmaIndirect: 2
+    m_PVRFilteringAtrousPositionSigmaAO: 1
+    m_ExportTrainingData: 0
+    m_TrainingDataDestination: TrainingData
+    m_LightProbeSampleCountMultiplier: 4
+  m_LightingDataAsset: {fileID: 0}
+  m_LightingSettings: {fileID: 0}
+--- !u!196 &4
+NavMeshSettings:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_BuildSettings:
+    serializedVersion: 2
+    agentTypeID: 0
+    agentRadius: 0.5
+    agentHeight: 2
+    agentSlope: 45
+    agentClimb: 0.4
+    ledgeDropHeight: 0
+    maxJumpAcrossDistance: 0
+    minRegionArea: 2
+    manualCellSize: 0
+    cellSize: 0.16666667
+    manualTileSize: 0
+    tileSize: 256
+    accuratePlacement: 0
+    maxJobWorkers: 0
+    preserveTilesOutsideBounds: 0
+    debug:
+      m_Flags: 0
+  m_NavMeshData: {fileID: 0}
+--- !u!1 &349873077
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 349873079}
+  - component: {fileID: 349873078}
+  - component: {fileID: 349873080}
+  m_Layer: 0
+  m_Name: Elements
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &349873078
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 349873077}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa690ed69cfbf404fa60112870f01276, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  buttonPrefab: {fileID: 742037379945335191, guid: 718dec43c061e5b4d9bfb8a334d1644b,
+    type: 3}
+  elementsMenu: {fileID: 1283154258}
+  ZValue: 010000000100000001000000020000000200000003000000030000000400000005000000050000000600000006000000060000000700000007000000080000000800000008000000090000000a0000000a0000000a0000000b0000000c0000000c0000000c0000000d0000000e0000000e0000000e0000000f000000100000001000000010000000100000001100000011000000120000001200000012000000130000001300000013000000140000001400000014000000140000001400000014000000150000001600000016000000160000001600000016000000170000001700000018000000180000001800000018000000190000001a0000001a0000001a0000001a0000001b0000001c0000001c0000001c0000001c0000001c0000001d0000001d0000001e0000001e0000001e0000001e0000001e0000001f0000001f0000002000000020000000200000002000000020000000210000002200000022000000220000002200000022000000220000002300000023000000240000002400000024000000240000002400000024000000250000002500000026000000260000002600000026000000270000002800000028000000280000002800000028000000290000002a0000002a0000002a0000002a0000002a0000002a0000002a0000002b0000002c0000002c0000002c0000002c0000002c0000002c0000002c0000002d0000002e0000002e0000002e0000002e0000002e0000002e0000002f0000002f00000030000000300000003000000030000000300000003000000030000000300000003100000031000000320000003200000032000000320000003200000032000000320000003200000032000000320000003300000033000000340000003400000034000000340000003400000034000000340000003400000035000000360000003600000036000000360000003600000036000000360000003600000036000000370000003800000038000000380000003800000038000000380000003800000039000000390000003a0000003a0000003a0000003a0000003b0000003c0000003c0000003c0000003c0000003c0000003c0000003c0000003d0000003e0000003e0000003e0000003e0000003e0000003e0000003e0000003f0000003f000000400000004000000040000000400000004000000040000000400000004100000042000000420000004200000042000000420000004200000042000000430000004400000044000000440000004400000044000000440000004500000046000000460000004600000046000000460000004600000046000000470000004700000048000000480000004800000048000000480000004800000049000000490000004a0000004a0000004a0000004a0000004a0000004b0000004b0000004c0000004c0000004c0000004c0000004c0000004c0000004c0000004d0000004d0000004e0000004e0000004e0000004e0000004e0000004e0000004f00000050000000500000005000000050000000500000005000000050000000510000005100000052000000520000005200000052000000530000005400000055000000560000005700000058000000590000005a0000005b0000005c0000005c0000005c0000005d0000005e0000005f000000600000006100000062000000630000006400000065000000660000006700000068000000690000006a0000006b0000006c0000006d0000006e0000006f00000070000000720000007400000076000000
+  elementNames:
+  - Hydrogen
+  - Deuterium
+  - Tritium
+  - Helium-3
+  - Helium-4
+  - Lithium-6
+  - Lithium-7
+  - Beryllium-9
+  - Boron-10
+  - Boron-11
+  - Carbon-12
+  - Carbon-13
+  - Carbon-14
+  - Nitrogen-14
+  - Nitrogen-15
+  - Oxygen-16
+  - Oxygen-17
+  - Oxygen-18
+  - Fluorine-19
+  - Neon-20
+  - Neon-21
+  - Neon-22
+  - Sodium-23
+  - Magnesium-24
+  - Magnesium-25
+  - Magnesium-26
+  - Aluminum-27
+  - Silicon-28
+  - Silicon-29
+  - Silicon-30
+  - Phosophorus-31
+  - Sulphur-32
+  - Sulphur-33
+  - Sulphur-34
+  - Sulphur-36
+  - Chlorine-35
+  - Chlorine-37
+  - Argon-36
+  - Argon-38
+  - Argon-40
+  - Potassium-39
+  - Potassium-40
+  - Potassium-41
+  - Calcium-40
+  - Calcium-42
+  - Calcium-43
+  - Calcium-44
+  - Calcium-46
+  - Calcium-48
+  - Scandium-45
+  - Titanium-46
+  - Titanium-47
+  - Titanium-48
+  - Titanium-49
+  - Titanium-50
+  - Vanadium-50
+  - Vanadium-51
+  - Chromium-50
+  - Chromium-52
+  - Chromium-53
+  - Chromium-54
+  - Manganese-55
+  - Iron-54
+  - Iron-56
+  - Iron-57
+  - Iron-58
+  - Cobalt-59
+  - Nickel-58
+  - Nickel-60
+  - Nickel-61
+  - Nickel-62
+  - Nickel-64
+  - Copper-63
+  - Copper-65
+  - Zinc-64
+  - Zinc-66
+  - Zinc-67
+  - Zinc-68
+  - Zinc-70
+  - Gallium-69
+  - Gallium-71
+  - Germanium-70
+  - Germanium-72
+  - Germanium-73
+  - Germanium-74
+  - Germanium-76
+  - Arsenic-75
+  - Selenium-74
+  - Selenium-76
+  - Selenium-77
+  - Selenium-78
+  - Selenium-80
+  - Selenium-82
+  - Bromine-79
+  - Bromine-81
+  - Krypton-78
+  - Krypton-80
+  - Krypton-82
+  - Krypton-83
+  - Krypton-84
+  - Krypton-86
+  - Rubidium-85
+  - Rubidium-87
+  - Strontium-84
+  - Strontium-86
+  - Strontium-87
+  - Strontium-88
+  - Yttrium-89
+  - Zirconium-90
+  - Zirconium-91
+  - Zirconium-92
+  - Zirconium-94
+  - Zirconium-96
+  - Niobium-93
+  - Molybdenum-92
+  - Molybdenum-94
+  - Molybdenum-95
+  - Molybdenum-96
+  - Molybdenum-97
+  - Molybdenum-98
+  - Molybdenum-100
+  - Technetium-98
+  - Ruthenium-96
+  - Ruthenium-98
+  - Ruthenium-99
+  - Ruthenium-100
+  - Ruthenium-101
+  - Ruthenium-102
+  - Ruthenium-104
+  - Rhodium-103
+  - Palladium-102
+  - Palladium-104
+  - Palladium-105
+  - Palladium-106
+  - Palladium-108
+  - Palladium-110
+  - Silver-107
+  - Silver-109
+  - Cadmium-106
+  - Cadmium-108
+  - Cadmium-110
+  - Cadmium-111
+  - Cadmium-112
+  - Cadmium-113
+  - Cadmium-114
+  - Cadmium-116
+  - Indium-113
+  - Indium-115
+  - Tin-112
+  - Tin-114
+  - Tin-115
+  - Tin-116
+  - Tin-117
+  - Tin-118
+  - Tin-119
+  - Tin-120
+  - Tin-122
+  - Tin-124
+  - Antimony-121
+  - Antimony-123
+  - Tellurium-120
+  - Tellurium-122
+  - Tellurium-123
+  - Tellurium-124
+  - Tellurium-125
+  - Tellurium-126
+  - Tellurium-128
+  - Tellurium-130
+  - Iodine-127
+  - Xenon-124
+  - Xenon-126
+  - Xenon-128
+  - Xenon-129
+  - Xenon-130
+  - Xenon-131
+  - Xenon-132
+  - Xenon-134
+  - Xenon-136
+  - Cesium-133
+  - Barium-130
+  - Barium-132
+  - Barium-134
+  - Barium-135
+  - Barium-136
+  - Barium-137
+  - Barium-138
+  - Lanthanum-138
+  - Lanthanum-139
+  - Cerium-136
+  - Cerium-138
+  - Cerium-140
+  - Cerium-142
+  - Praseodymium-141
+  - Neodymium-142
+  - Neodymium-143
+  - Neodymium-144
+  - Neodymium-145
+  - Neodymium-146
+  - Neodymium-148
+  - Neodymium-150
+  - Promethium-145
+  - Samarium-144
+  - Samarium-147
+  - Samarium-148
+  - Samarium-149
+  - Samarium-150
+  - Samarium-152
+  - Samarium-154
+  - Europium-151
+  - Europium-153
+  - Gadolinium-152
+  - Gadolinium-154
+  - Gadolinium-155
+  - Gadolinium-156
+  - Gadolinium-157
+  - Gadolinium-158
+  - Gadolinium-160
+  - Terbium-159
+  - Dysprosium-156
+  - Dysprosium-158
+  - Dysprosium-160
+  - Dysprosium-161
+  - Dysprosium-162
+  - Dysprosium-163
+  - Dysprosium-164
+  - Holmium-165
+  - Erbium-162
+  - Erbium-164
+  - Erbium-166
+  - Erbium-167
+  - Erbium-168
+  - Erbium-170
+  - Thulium-169
+  - Ytterbium-168
+  - Ytterbium-170
+  - Ytterbium-171
+  - Ytterbium-172
+  - Ytterbium-173
+  - Ytterbium-174
+  - Ytterbium-176
+  - Lutetium-175
+  - Lutetium-176
+  - Hafnium-174
+  - Hafnium-176
+  - Hafnium-177
+  - Hafnium-178
+  - Hafnium-179
+  - Hafnium-180
+  - Tantalum-180
+  - Tantalum-181
+  - Tungsten-180
+  - Tungsten-182
+  - Tungsten-183
+  - Tungsten-184
+  - Tungsten-186
+  - Rhenium-185
+  - Rhenium-187
+  - Osmium-184
+  - Osmium-186
+  - Osmium-187
+  - Osmium-188
+  - Osmium-189
+  - Osmium-190
+  - Osmium-192
+  - Iridium-191
+  - Iridium-193
+  - Platinum-190
+  - Platinum-192
+  - Platinum-194
+  - Platinum-195
+  - Platinum-196
+  - Platinum-198
+  - Gold-197
+  - Mercury-196
+  - Mercury-198
+  - Mercury-199
+  - Mercury-200
+  - Mercury-201
+  - Mercury-202
+  - Mercury-204
+  - Thallium-203
+  - Thallium-205
+  - Lead-204
+  - Lead-206
+  - Lead-207
+  - Lead-208
+  - Bismuth-209
+  - Polonium-209
+  - Astatine-210
+  - Radon-222
+  - Francium-223
+  - Radium-226
+  - Actinium-227
+  - Thorium-232
+  - Protactinium-231
+  - Uranium-234
+  - Uranium-235
+  - Uranium-238
+  - Neptunium-237
+  - Plutonium-244
+  - Americium-243
+  - Curium-247
+  - Berkelium-247
+  - Californium-251
+  - Einsteinium-252
+  - Fermium-257
+  - Mendelevium-258
+  - Nobelium-259
+  - Lawrencium-262
+  - Rutherfordium-263
+  - Dubnium-262
+  - Seaborgium-266
+  - Bohrium-264
+  - Hassium-269
+  - Meitnerium-268
+  - Ununnilium-272
+  - Unununium-272
+  - Ununbium-277
+  - Ununquadium-289
+  - Ununhexium-289
+  - Ununoctium-293
+  elementValues:
+  - 1.007825
+  - 2.014102
+  - 3.016049
+  - 3.016029
+  - 4.002603
+  - 6.015122
+  - 7.016004
+  - 9.012182
+  - 10.012937
+  - 11.009305
+  - 12
+  - 13.003355
+  - 14.003242
+  - 14.003074
+  - 15.000109
+  - 15.994915
+  - 16.999132
+  - 17.99916
+  - 18.998404
+  - 19.99244
+  - 20.993847
+  - 21.991386
+  - 22.98977
+  - 23.985043
+  - 24.985838
+  - 25.982594
+  - 26.981539
+  - 27.976927
+  - 28.976496
+  - 29.97377
+  - 30.973763
+  - 31.97207
+  - 32.97146
+  - 33.96787
+  - 35.96708
+  - 34.968853
+  - 36.965904
+  - 35.967545
+  - 37.96273
+  - 39.962383
+  - 38.963707
+  - 39.964
+  - 40.961826
+  - 39.96259
+  - 41.95862
+  - 42.958767
+  - 43.955482
+  - 45.953693
+  - 47.952534
+  - 44.95591
+  - 45.95263
+  - 46.951763
+  - 47.94795
+  - 48.947872
+  - 49.944794
+  - 49.947163
+  - 50.943962
+  - 49.94605
+  - 51.940514
+  - 52.940655
+  - 53.938885
+  - 54.93805
+  - 53.939613
+  - 55.93494
+  - 56.9354
+  - 57.93328
+  - 58.9332
+  - 57.93535
+  - 59.93079
+  - 60.93106
+  - 61.92835
+  - 63.92797
+  - 62.9296
+  - 64.927795
+  - 63.929146
+  - 65.92604
+  - 66.92713
+  - 67.92485
+  - 69.92532
+  - 68.92558
+  - 70.924706
+  - 69.92425
+  - 71.92207
+  - 72.92346
+  - 73.92118
+  - 75.9214
+  - 74.92159
+  - 73.92248
+  - 75.91921
+  - 76.919914
+  - 77.91731
+  - 79.91652
+  - 81.9167
+  - 78.918335
+  - 80.91629
+  - 77.92039
+  - 79.916374
+  - 81.91348
+  - 82.91414
+  - 83.91151
+  - 85.91061
+  - 84.91179
+  - 86.90918
+  - 83.91342
+  - 85.90926
+  - 86.90888
+  - 87.90562
+  - 88.905846
+  - 89.9047
+  - 90.90565
+  - 91.90504
+  - 93.90632
+  - 95.90828
+  - 92.90638
+  - 91.90681
+  - 93.90509
+  - 94.90584
+  - 95.90468
+  - 96.90602
+  - 97.90541
+  - 99.90748
+  - 97.90722
+  - 95.9076
+  - 97.90529
+  - 98.90594
+  - 99.90422
+  - 100.90558
+  - 101.90435
+  - 103.90543
+  - 102.9055
+  - 101.90561
+  - 103.90404
+  - 104.90508
+  - 105.90348
+  - 107.90389
+  - 109.90515
+  - 106.90509
+  - 108.904755
+  - 105.906456
+  - 107.90418
+  - 109.90301
+  - 110.90418
+  - 111.902756
+  - 112.9044
+  - 113.90336
+  - 115.904755
+  - 112.90406
+  - 114.90388
+  - 111.90482
+  - 113.90278
+  - 114.90334
+  - 115.90174
+  - 116.902954
+  - 117.9016
+  - 118.90331
+  - 119.9022
+  - 121.90344
+  - 123.90527
+  - 120.90382
+  - 122.90421
+  - 119.90402
+  - 121.903046
+  - 122.904274
+  - 123.90282
+  - 124.90443
+  - 125.903305
+  - 127.904465
+  - 129.90622
+  - 126.904465
+  - 123.9059
+  - 125.90427
+  - 127.90353
+  - 128.90479
+  - 129.9035
+  - 130.90508
+  - 131.90416
+  - 133.9054
+  - 135.90723
+  - 132.90544
+  - 129.90631
+  - 131.90506
+  - 133.90451
+  - 134.90569
+  - 135.90457
+  - 136.90582
+  - 137.90524
+  - 137.9071
+  - 138.90634
+  - 135.90715
+  - 137.90599
+  - 139.90544
+  - 141.90924
+  - 140.90765
+  - 141.90771
+  - 142.9098
+  - 143.91008
+  - 144.91257
+  - 145.91312
+  - 147.91689
+  - 149.92088
+  - 144.91275
+  - 143.912
+  - 146.91489
+  - 147.91483
+  - 148.91718
+  - 149.91727
+  - 151.91972
+  - 153.92221
+  - 150.91985
+  - 152.92122
+  - 151.91978
+  - 153.92087
+  - 154.92262
+  - 155.92212
+  - 156.92395
+  - 157.9241
+  - 159.92705
+  - 158.92534
+  - 155.92427
+  - 157.92441
+  - 159.9252
+  - 160.92693
+  - 161.92679
+  - 162.92873
+  - 163.92917
+  - 164.93031
+  - 161.92877
+  - 163.9292
+  - 165.93028
+  - 166.93205
+  - 167.93237
+  - 169.93546
+  - 168.9342
+  - 167.9339
+  - 169.93475
+  - 170.93633
+  - 171.93637
+  - 172.9382
+  - 173.93886
+  - 175.94257
+  - 174.94077
+  - 175.94269
+  - 173.94003
+  - 175.9414
+  - 176.94322
+  - 177.9437
+  - 178.94582
+  - 179.94655
+  - 179.94746
+  - 180.948
+  - 179.9467
+  - 181.94821
+  - 182.95023
+  - 183.95093
+  - 185.95436
+  - 184.95296
+  - 186.95575
+  - 183.95248
+  - 185.95384
+  - 186.95575
+  - 187.95584
+  - 188.95815
+  - 189.95845
+  - 191.96147
+  - 190.96059
+  - 192.96292
+  - 189.95993
+  - 191.96103
+  - 193.96266
+  - 194.96477
+  - 195.96494
+  - 197.96788
+  - 196.96655
+  - 195.96582
+  - 197.96675
+  - 198.96826
+  - 199.9683
+  - 200.97029
+  - 201.97063
+  - 203.97348
+  - 202.97234
+  - 204.97441
+  - 203.97302
+  - 205.97444
+  - 206.97588
+  - 207.97664
+  - 208.98038
+  - 208.98242
+  - 209.98714
+  - 222.01756
+  - 223.01973
+  - 226.0254
+  - 227.02774
+  - 232.03806
+  - 231.03587
+  - 234.04094
+  - 235.04393
+  - 238.05078
+  - 237.04817
+  - 244.0642
+  - 243.06137
+  - 247.07034
+  - 247.0703
+  - 251.07957
+  - 252.08298
+  - 257.0951
+  - 258.09842
+  - 259.101
+  - 262.10968
+  - 263.11832
+  - 262.01144
+  - 266.01224
+  - 264.01248
+  - 269.00134
+  - 268.00137
+  - 272.00146
+  - 272.00153
+  - 277
+  - 289
+  - 289
+  - 293
+--- !u!4 &349873079
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 349873077}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.57774526, y: 0.78273296, z: 1.6582137}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &349873080
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 349873077}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 265ec582105f9644da063a688422c280, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  elements: {fileID: 349873078}
+  elementsUICanvas: {fileID: 1283154258}
+  buttonPrefab: {fileID: 742037379945335191, guid: 718dec43c061e5b4d9bfb8a334d1644b,
+    type: 3}
+--- !u!1 &616111796
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 616111798}
+  - component: {fileID: 616111797}
+  m_Layer: 0
+  m_Name: Directional Light
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!108 &616111797
+Light:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 616111796}
+  m_Enabled: 1
+  serializedVersion: 10
+  m_Type: 1
+  m_Shape: 0
+  m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
+  m_Intensity: 1
+  m_Range: 10
+  m_SpotAngle: 30
+  m_InnerSpotAngle: 21.80208
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 2
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 1
+    m_Bias: 0.05
+    m_NormalBias: 0.4
+    m_NearPlane: 0.2
+    m_CullingMatrixOverride:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    m_UseCullingMatrixOverride: 0
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingLayerMask: 1
+  m_Lightmapping: 4
+  m_LightShadowCasterMode: 0
+  m_AreaSize: {x: 1, y: 1}
+  m_BounceIntensity: 1
+  m_ColorTemperature: 6570
+  m_UseColorTemperature: 0
+  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_UseBoundingSphereOverride: 0
+  m_UseViewFrustumForShadowCasterCull: 1
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
+--- !u!4 &616111798
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 616111796}
+  m_LocalRotation: {x: 0.40821788, y: -0.23456968, z: 0.10938163, w: 0.8754261}
+  m_LocalPosition: {x: 0, y: 3, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!1 &905960332
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 905960335}
+  - component: {fileID: 905960334}
+  - component: {fileID: 905960333}
+  m_Layer: 0
+  m_Name: EventSystem
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &905960333
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 905960332}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab68ce6587aab0146b8dabefbd806791, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ClickSpeed: 0.3
+  m_MoveDeadzone: 0.6
+  m_RepeatDelay: 0.5
+  m_RepeatRate: 0.1
+  m_TrackedDeviceDragThresholdMultiplier: 1.4
+  m_MaxTrackedDeviceRaycastDistance: 1000
+  m_EnableXRInput: 1
+  m_EnableMouseInput: 1
+  m_EnableTouchInput: 1
+--- !u!114 &905960334
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 905960332}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76c392e42b5098c458856cdf6ecaaaa1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_FirstSelected: {fileID: 0}
+  m_sendNavigationEvents: 1
+  m_DragThreshold: 10
+--- !u!4 &905960335
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 905960332}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.1637617, y: 1.3276386, z: 1.5383227}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1165588595
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1165588598}
+  - component: {fileID: 1165588597}
+  - component: {fileID: 1165588596}
+  m_Layer: 0
+  m_Name: Main Camera
+  m_TagString: MainCamera
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!81 &1165588596
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1165588595}
+  m_Enabled: 1
+--- !u!20 &1165588597
+Camera:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1165588595}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 1
+  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_projectionMatrixMode: 1
+  m_GateFitMode: 2
+  m_FOVAxisMode: 0
+  m_SensorSize: {x: 36, y: 24}
+  m_LensShift: {x: 0, y: 0}
+  m_FocalLength: 50
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.3
+  far clip plane: 1000
+  field of view: 60
+  orthographic: 0
+  orthographic size: 5
+  m_Depth: -1
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_TargetEye: 3
+  m_HDR: 1
+  m_AllowMSAA: 1
+  m_AllowDynamicResolution: 0
+  m_ForceIntoRT: 0
+  m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
+--- !u!4 &1165588598
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1165588595}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 1, z: -10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1283154258
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1283154263}
+  - component: {fileID: 1283154262}
+  - component: {fileID: 1283154261}
+  - component: {fileID: 1283154260}
+  - component: {fileID: 1283154259}
+  - component: {fileID: 1283154264}
+  m_Layer: 5
+  m_Name: Elements Menu
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1283154259
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1283154258}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7951c64acb0fa62458bf30a60089fe2d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 0
+  m_CheckFor2DOcclusion: 0
+  m_CheckFor3DOcclusion: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RaycastTriggerInteraction: 1
+--- !u!114 &1283154260
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1283154258}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
+  m_BlockingObjects: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &1283154261
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1283154258}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_UiScaleMode: 0
+  m_ReferencePixelsPerUnit: 100
+  m_ScaleFactor: 1
+  m_ReferenceResolution: {x: 800, y: 600}
+  m_ScreenMatchMode: 0
+  m_MatchWidthOrHeight: 0
+  m_PhysicalUnit: 3
+  m_FallbackScreenDPI: 96
+  m_DefaultSpriteDPI: 96
+  m_DynamicPixelsPerUnit: 1
+  m_PresetInfoIsWorld: 1
+--- !u!223 &1283154262
+Canvas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1283154258}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_RenderMode: 2
+  m_Camera: {fileID: 1165588597}
+  m_PlaneDistance: 100
+  m_PixelPerfect: 0
+  m_ReceivesEvents: 1
+  m_OverrideSorting: 0
+  m_OverridePixelPerfect: 0
+  m_SortingBucketNormalizedSize: 0
+  m_AdditionalShaderChannelsFlag: 25
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_TargetDisplay: 0
+--- !u!224 &1283154263
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1283154258}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.001, y: 0.001, z: 0.001}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0.9645, y: -0.155}
+  m_SizeDelta: {x: 2029.0642, y: 409.8859}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1283154264
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1283154258}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a8695521f0d02e499659fee002a26c2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Padding:
+    m_Left: 0
+    m_Right: 0
+    m_Top: 0
+    m_Bottom: 0
+  m_ChildAlignment: 0
+  m_StartCorner: 0
+  m_StartAxis: 0
+  m_CellSize: {x: 100, y: 100}
+  m_Spacing: {x: 1, y: 1}
+  m_Constraint: 0
+  m_ConstraintCount: 2
